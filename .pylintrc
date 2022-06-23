@@ -7,7 +7,7 @@ disable=
     W0703, # Catching too general exception Exception
     C0209, # Consider-using-f-string
     C0321, # Multiple-statements
-    
+
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
 # only in one or another interpreter, leading to false positives when analysed.
@@ -82,7 +82,7 @@ limit-inference-results=100
 
 # List of plugins (as comma separated values of python module names) to load,
 # usually to register additional checkers.
-load-plugins=pylint
+load-plugins=
 
 # Pickle collected data for later comparisons.
 persistent=yes
