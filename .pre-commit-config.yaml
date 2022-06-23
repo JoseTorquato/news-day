@@ -13,6 +13,7 @@ repos:
             "--rcfile=.pylintrc", # Link to your config file
             "--load-plugins=pylint.extensions.docparams", # Load an extension
           ]
+        stages: [commit]
 
   - repo: local
     hooks:
