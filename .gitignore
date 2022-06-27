@@ -1,7 +1,3 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/vscode,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=vscode,node
-
 ### Node ###
 # Logs
 logs
@@ -127,3 +123,5 @@ dist
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/vscode,node
+.pytest_cache
+__pycache__/
